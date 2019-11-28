@@ -1,0 +1,67 @@
+{
+    "tests": [
+        {
+            "name": "test_no_segfault_0_amptjp_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_1_cccp_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_2_cp_decl_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_3_expr_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_4_coalescing_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_5_random_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_6_random2_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_7_binary_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "test_no_segfault_8_binary2_bal (tests.test_thatAllTracesPass.RunTraces)",
+            "score": 5,
+            "max_score": 5,
+            "visibility": "hidden"
+        },
+        {
+            "name": "tests.display.test_supported_data_type (unittest.loader._FailedTest)",
+            "score": 0.0,
+            "max_score": 0.0,
+            "output": "Test Failed: Failed to import test module: tests.display.test_supported_data_type\nTraceback (most recent call last):\n  File \"/usr/local/stow/python/amd64_linux26/python-3.6/lib/python3.6/unittest/loader.py\", line 298, in discover\n    os.path.dirname((the_module.__file__)))\nAttributeError: module 'tests' has no attribute '__file__'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/local/stow/python/amd64_linux26/python-3.6/lib/python3.6/unittest/loader.py\", line 428, in _find_test_path\n    module = self._get_module_from_name(name)\n  File \"/usr/local/stow/python/amd64_linux26/python-3.6/lib/python3.6/unittest/loader.py\", line 369, in _get_module_from_name\n    __import__(name)\n  File \"/home/u0469078/.pycharm_helpers/pycharm_display/tests/display/test_supported_data_type.py\", line 3, in <module>\n    import numpy as np\nModuleNotFoundError: No module named 'numpy'\n\n"
+        }
+    ],
+    "leaderboard": [],
+    "execution_time": "1.00",
+    "score": 45.0
+}
